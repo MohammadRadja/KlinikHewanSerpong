@@ -892,8 +892,6 @@ label {
   align-items: center;
   height: 100%;
   width: 100%;
-  background: rgba(22, 67, 67, 0.7);
-  background: rgba(77, 77, 77, 1);
 }
 .hero-slider-item .hero-content {
   margin: 0 5%;
