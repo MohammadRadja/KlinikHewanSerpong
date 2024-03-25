@@ -905,8 +905,8 @@ label {
 }
 .hero-slider-item .hero-content .hero-title,
 .hero-slider-item .hero-content p {
-  color: var(--thm-black);
-  opacity: 0;
+  color: black;
+  font-weight: bolder;
 }
 .hero-slider-item .hero-content .hero-title {
   -webkit-transition-delay: 0.5s;
