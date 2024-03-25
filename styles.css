@@ -1229,7 +1229,6 @@ rect {
 .service-cat-sec .single-service::before {
   content: "";
   position: absolute;
-  background: url(../assets/images/service/service-art.png);
   height: 100%;
   width: 100%;
   top: 0;
