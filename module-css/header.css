@@ -15,7 +15,7 @@
 
 .nav-logo {
   display: inline-block;
-  margin-right: 1rem;
+  margin-right: 3rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -301,6 +301,7 @@
 
 .menu-area .mobile-nav-toggler {
   width: 100%;
+  height: 40px;
   position: relative;
   float: right;
   font-size: 30px;
@@ -414,7 +415,13 @@
 }
 
 .sticky-menu .navbar-wrap ul li a {
-  padding: 35px 0;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 35px;
+  padding-right: 3rem;
 }
 
 /*=============================
@@ -486,15 +493,18 @@
 
 .navbar-wrap ul li a {
   position: relative;
-  display: block;
+  display: flex;
   color: rgba(6, 37, 71, 0.7);
   font-size: 16px;
   line-height: 28px;
   font-weight: 600;
   text-transform: capitalize;
   font-family: var(--thm-body-font);
-  padding: 29px 0px 28px;
+  padding: 15px 0px 15px;
   z-index: 1;
+  margin-block: 1em;
+  padding-inline-start: 35px;
+  padding-right: 3rem;
 }
 
 .navbar-wrap > ul > li::after {
@@ -1029,12 +1039,21 @@
   );
 }
 
+/* Responsive Mobile */
+@media only screen and (max-width: 767px) {
+  .service-cat-sec {
+    position: relative;
+    margin-left: -100px; /* Atur margin atas, auto pada sisi kiri dan kanan, dan 0 pada bawah */
+    z-index: 999;
+  }
+}
+
+/* Responsive Tablet */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-header-one__inner {
     display: none;
   }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   .menu-area .mobile-nav-toggler {
     display: -webkit-box;
     display: -ms-flexbox;
