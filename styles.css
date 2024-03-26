@@ -1203,11 +1203,20 @@ rect {
 
 /* Responsive Mobile */
 @media only screen and (max-width: 767px) {
-  .service-cat-sec {
+  .service-cat-sec .single-service {
     position: relative;
     width: 100%; /* Sesuaikan dengan lebar yang diinginkan */
-    margin: -50px 225px 0; /* Atur margin atas, auto pada sisi kiri dan kanan, dan 0 pada bawah */
+    margin-left: -50px; /* Atur margin atas, auto pada sisi kiri dan kanan, dan 0 pada bawah */
     z-index: 999;
+    border-radius: 50%;
+  }
+
+  .footer-widget.pages-services {
+    display: none;
+  }
+
+  .footer-widget.pages-links {
+    display: none;
   }
 }
 
