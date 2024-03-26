@@ -513,7 +513,7 @@
   bottom: 0;
   right: 0;
   height: 4px;
-  background: var(--thm-primary);
+  background: #00afee;
   border-radius: 5px 5px 0px 0px;
   -webkit-transition: -webkit-transform 700ms ease;
   transition: -webkit-transform 700ms ease;
