@@ -501,10 +501,10 @@
   font-family: var(--thm-body-font);
   padding: 15px 0px 15px;
   z-index: 1;
-  margin-block: 1rem;
+  margin-block: 2rem;
   /* padding-inline-start: 15px; */
-  padding-right: 4rem;
-  margin-left: 1rem;
+  /* padding-right: 2rem; */
+  margin-left: 2rem;
 }
 
 .navbar-wrap > ul > li::after {
