@@ -194,8 +194,8 @@ h6 {
 /*=============================
 	2. Comon CSS
 ===============================*/
-.bg-green {
-  background-color: var(--thm-green);
+.bg-blue {
+  background-color: #00afee;
 }
 
 .bg-light-greem {
@@ -280,7 +280,7 @@ h6 {
   color: var(--thm-black);
 }
 .sec-content ul.sec-list-item li i {
-  color: var(--thm-teal);
+  color: #00afee;
   margin-right: 8px;
 }
 .sec-content ul.sec-list-item li:last-child {
@@ -301,7 +301,7 @@ h6 {
   font-size: 20px;
   font-weight: 500;
   line-height: 20px;
-  color: var(--thm-teal);
+  color: #00afee;
 }
 
 .sec-title {
@@ -945,13 +945,13 @@ label {
   background: var(--thm-bg-ling-green);
 }
 .hero-slider .thm-btn-style2 {
-  color: var(--thm-teal);
+  color: var(--thm-black);
   border-color: var(--thm-bg-ling-green);
 }
 .hero-slider .thm-btn-style2:hover {
   color: var(--thm-white);
-  background: var(--thm-teal);
-  border-color: var(--thm-teal);
+  background: #00afee;
+  border-color: #00afee;
 }
 
 .hero-slider .owl-item.active span.hero-tagline {
@@ -1173,15 +1173,17 @@ label {
   width: 100%;
 }
 .single-service-style2 .content-box {
-  padding: 30px;
+  width: auto;
+  height: 10rem;
 }
 .single-service-style2 .content-box .single-service-content {
   margin-right: 16px;
 }
 .single-service-style2 .content-box .single-service-content h5 {
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px;
   margin-bottom: 10px;
+  font-weight: bolder;
 }
 .single-service-style2 .content-box .single-service-content a.read-more {
   margin-top: 36px;
@@ -1192,7 +1194,7 @@ rect {
 }
 .single-service-style2 .content-box .single-service-icon i {
   font-size: 80px;
-  color: var(--thm-teal);
+  color: #00afee;
 }
 .single-service-style2:hover .img-box {
   -webkit-transform: translate3d(0, -15px, 0) scale(1.1);
@@ -1213,9 +1215,9 @@ rect {
   display: flex;
   position: relative;
   width: 100%;
-  margin-top: -50px 225px 0;
-  left: 15%;
-  right: -15%;
+  margin-top: -50px;
+  left: 13%;
+  right: -17%;
   z-index: 999;
 }
 
@@ -1260,7 +1262,7 @@ rect {
 }
 .service-cat-sec .single-service .service-content i {
   font-size: 60px;
-  color: var(--thm-teal);
+  color: #00afee;
   margin-bottom: 14px;
 }
 .service-cat-sec .single-service .service-content a.service-title {
@@ -1646,8 +1648,7 @@ rect {
 ===============================*/
 .company-qinfo-raaper {
   padding: 50px 0;
-  margin-top: -110px;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 .company-qinfo-raaper .single-info {
   padding: 14px 85px;
@@ -2001,7 +2002,7 @@ rect {
 }
 
 .faq-page.testimonial-sec2 h6.sec-sub-title {
-  color: var(--thm-teal);
+  color: #00afee;
 }
 .faq-page.testimonial-sec2 h2.sec-title,
 .faq-page.testimonial-sec2 p.comment,
@@ -2038,7 +2039,7 @@ rect {
   width: 50px;
   padding: 18px 10px;
   margin-bottom: 20px;
-  background: var(--thm-teal);
+  background: #00afee;
   display: inline-block;
   border-radius: 0 0 6px 6px;
   position: absolute;
@@ -2096,7 +2097,7 @@ rect {
   opacity: 1;
 }
 .single-team:hover .member-info h3.member-name {
-  color: var(--thm-teal);
+  color: #00afee;
 }
 .single-team:hover .member-img img {
   -webkit-transform: scale(1.05);
@@ -3108,8 +3109,8 @@ form.itco-sform .contact-field textarea {
   margin-bottom: 24px;
 }
 .contact-page-sec .get-in-touch .qinfo-item .qinfo-icon i {
-  background: var(--thm-bg-ling-green);
-  color: var(--thm-teal);
+  background: #00afee;
+  color: var(--thm-white);
   height: 60px;
   width: 60px;
   display: -webkit-box;
@@ -3137,7 +3138,7 @@ form.itco-sform .contact-field textarea {
   color: var(--thm-black);
 }
 .contact-page-sec .get-in-touch .qinfo-item .qinfo-box a:hover {
-  color: var(--thm-teal);
+  color: #00afee;
 }
 .contact-page-sec .company-social {
   margin-top: 40px;
@@ -3161,7 +3162,7 @@ form.itco-sform .contact-field textarea {
   color: var(--thm-black);
 }
 .contact-page-sec .company-social a:hover {
-  background: var(--thm-teal);
+  background: #00afee;
   color: var(--thm-white);
 }
 
