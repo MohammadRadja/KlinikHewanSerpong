@@ -1698,11 +1698,15 @@ rect {
   overflow: hidden;
 }
 .single-pricing .pricing-badge {
-  padding: 50px;
+  padding: 45px;
+  width: 100%;
+  height: 20rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
   background: var(--thm-bg-ling-green);
 }
 .single-pricing .pricing-badge span.title {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: var(--thm-heading-font-weight);
   line-height: 42px;
   margin-bottom: 14px;
@@ -1721,8 +1725,9 @@ rect {
   margin-top: 10px;
 }
 .single-pricing .pricing-badge .pricing-price h3.price {
-  font-size: 50px;
+  font-size: 20px;
   line-height: 72px;
+  white-space: nowrap;
 }
 .single-pricing .pricing-badge .pricing-price h3.price span {
   font-size: 18px;
@@ -1731,6 +1736,7 @@ rect {
   color: var(--thm-teal);
   margin-left: 8px;
 }
+
 .single-pricing .pricing-badge .pricing-btn a.btn {
   margin-top: 50px;
   padding: 12px 20px;
@@ -1746,10 +1752,18 @@ rect {
 .single-pricing .pricing-content {
   padding: 40px 50px 50px;
 }
+
+.single-pricing .pricing-list {
+  padding-left: 0; /* Hilangkan padding kiri pada daftar */
+  margin-top: 0; /* Hilangkan margin atas pada daftar */
+  list-style: none; /* Hilangkan tanda bullet pada daftar */
+}
+
 .single-pricing .pricing-content ul.pricing-list li {
   position: relative;
-  margin-bottom: 12px;
-  padding-left: 28px;
+  font-size: 12px;
+  padding-left: 5px;
+  list-style-type: disc;
 }
 .single-pricing .pricing-content ul.pricing-list li:last-child {
   margin-bottom: 0;
