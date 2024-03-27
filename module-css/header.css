@@ -456,7 +456,7 @@
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-around;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -701,7 +701,7 @@
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .main-header-one__top-left {
@@ -846,8 +846,8 @@
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 0 30px;
+  justify-content: space-around;
+  padding: 0 0;
   z-index: 1;
   background: var(--thm-white);
   border-radius: 10px;
