@@ -2658,11 +2658,12 @@ rect {
   height: 80px;
   margin-bottom: 10px;
 }
-.footer-widget h4.footer-widget-title {
+.footer-widget-title {
   margin-bottom: 30px;
   font-size: 26px;
   line-height: 42px;
   color: white;
+  font-weight: bolder;
 }
 .footer-widget .footer-widget-content .footer-social-icon {
   margin-top: 30px;
