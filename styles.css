@@ -140,6 +140,13 @@ textarea:focus {
   text-transform: capitalize;
 }
 
+.title {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 4px;
+  font-weight: bolder;
+}
+
 h1,
 h2,
 h3,
@@ -1179,12 +1186,7 @@ label {
 .single-service-style2 .content-box .single-service-content {
   margin-right: 16px;
 }
-.single-service-style2 .content-box .single-service-content h5 {
-  font-size: 25px;
-  line-height: 30px;
-  margin-bottom: 10px;
-  font-weight: bolder;
-}
+
 .single-service-style2 .content-box .single-service-content a.read-more {
   margin-top: 36px;
   display: block;
